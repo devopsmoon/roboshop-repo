@@ -6,13 +6,13 @@ mongodb:	## Installing mongodb component for roboshop project
 	@sh component/mongodb.sh
 catalogue:	## Installing catalogue component for roboshop project
 	@sh component/catalogue.sh
-redis:	## Installing redis component for roboshop project
+redis:		## Installing redis component for roboshop project
 	@sh component/redis.sh
-user:	## Installing user component for roboshop project
+user:		## Installing user component for roboshop project
 	@sh component/user.sh
-cart:	## Installing cart component for roboshop project
+cart:		## Installing cart component for roboshop project
 	@sh component/cart.sh
-mysql:	## Installing mysql component for roboshop project
+mysql:		## Installing mysql component for roboshop project
 	@sh component/mysq.sh
 shipping:	## Installing shipping component for roboshop project
 	@sh component/shipping.sh
