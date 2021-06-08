@@ -1,24 +1,24 @@
-help:
-	@echo
-frontend:
+help:	## print Help Message
+	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
+frontend:	## Installing frontend component for roboshop project
 	@sh component/frontend.sh
-mongodb:
+mongodb:	## Installing mongodb component for roboshop project
 	@sh component/mongodb.sh
-catalogue:
+catalogue:	## Installing catalogue component for roboshop project
 	@sh component/catalogue.sh
-redis:
+redis:	## Installing redis component for roboshop project
 	@sh component/redis.sh
-user:
+user:	## Installing user component for roboshop project
 	@sh component/user.sh
-cart:
+cart:	## Installing cart component for roboshop project
 	@sh component/cart.sh
-mysql:
+mysql:	## Installing mysql component for roboshop project
 	@sh component/mysq.sh
-shipping:
+shipping:	## Installing shipping component for roboshop project
 	@sh component/shipping.sh
-rabbitmq:
+rabbitmq:	## Installing rabbitmq component for roboshop project
 	@sh component/rabbitmq.sh
-payment:
+payment:	## Installing payment component for roboshop project
 	@sh component/payment.sh
 
 
