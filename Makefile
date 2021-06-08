@@ -1,5 +1,4 @@
 coffee:
     @echo Making coffee
-
-Tea:
+tea:
     @echo Making Tea for Dulah raja
