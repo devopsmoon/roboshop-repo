@@ -1,5 +1,5 @@
-cofee:
-    @echo making cofee
+coffee:
+    @echo Making coffee
 
 Tea:
-    @echo mking Tea for dulah raja
+    @echo Making Tea for Dulah raja
